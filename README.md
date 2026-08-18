@@ -55,7 +55,13 @@ We will use Python Boto3 to provision the AWS S3 Bucket.
 7. Install Boto3
     - pip install boto3
 
-8. Run the script
+8. Copy script into venv folder
+    - Type cd .. and press enter
+    - Type cp /home/(user)/terraform-backend-setup/setup_backend.py /home/(user)/terraform-backend-setup/venv/setup_backend.py and press enter
+
+    Note: For (User), change to the signed in user.  To check this, type pwd and press enter.
+
+9. Run the script
     - type setup_backend.py and press enter
 
     Note: You should see a set of confirmation messages confirming that the S3 bucket has been setup and configured as required. 
